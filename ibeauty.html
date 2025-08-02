@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thai Wellness – タイ古式マッサージ ヤージャイ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    html{scroll-behavior:smooth}
+  </style>
+</head>
+<body class="font-sans leading-relaxed text-gray-800">
+  <!-- Header / Hero -->
+  <header id="top" class="relative h-screen bg-cover bg-center" style="background-image:url('https://tadaup.jp/8EJsPtm0L.jpg');">
+    <!-- Navigation -->
+    <nav class="bg-black bg-opacity-60 fixed w-full z-10 backdrop-blur">
+      <div class="max-w-7xl mx-auto flex items-center justify-between p-4 text-white">
+        <a href="#top" class="text-2xl font-bold tracking-wider">Thai Wellness</a>
+        <ul id="navLinks" class="hidden md:flex space-x-8 text-sm uppercase">
+          <li><a href="#staff" class="hover:text-yellow-300">Staff</a></li>
+          <li><a href="#about" class="hover:text-yellow-300">About</a></li>
+          <li><a href="#services" class="hover:text-yellow-300">Menu</a></li>
+          <li><a href="#gallery" class="hover:text-yellow-300">Gallery</a></li>
+          <li><a href="#faq" class="hover:text-yellow-300">FAQ</a></li>
+          <li><a href="#access" class="hover:text-yellow-300">Access</a></li>
+          <li><a href="#contact" class="hover:text-yellow-300">Reserve</a></li>
+        </ul>
+        <button id="menuBtn" class="md:hidden focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </nav>
+    <!-- Hero copy -->
+    <div class="h-full flex flex-col items-center justify-center text-center text-white px-4 bg-black bg-opacity-40">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight drop-shadow-lg">心に栄養を与える<br class="hidden md:block"/>タイ古式マッサージ</h1>
+      <p class="text-lg md:text-2xl mb-8">JR御徒町駅5分・湯島駅1分／深夜2時まで営業</p>
+      <a href="#contact" class="bg-yellow-400 hover:bg-yellow-500 text-black py-3 px-10 rounded-full text-lg font-semibold shadow-lg">今すぐ予約</a>
+    </div>
+  </header>
+
+  <!-- Staff (moved up for first‑view visibility) -->
+  <section id="staff" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">スタッフ紹介</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <img src="assets/staff1.jpg" alt="アイ" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">アイ (Ai)</h3>
+            <p class="text-sm text-gray-600 mb-2">月・火・金・日 12:00‑01:00</p>
+            <p class="text-sm">深い圧と丁寧な施術が人気のトップセラピスト。</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <img src="assets/staff2.jpg" alt="カレン" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">カレン (Karen)</h3>
+            <p class="text-sm text-gray-600 mb-2">水・木・土 11:00‑02:00</p>
+            <p class="text-sm">アロマブレンドが得意な癒し系セラピスト。</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <img src="assets/staff3.jpg" alt="ピンク" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">ピンク (Pink)</h3>
+            <p class="text-sm text-gray-600 mb-2">毎日 11:00‑02:00</p>
+            <p class="text-sm">しっかり圧×ストレッチでリピーター多数。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-6 items-center">
+      <img src="assets/about.jpg" alt="店内写真" class="rounded-2xl shadow-lg w-full h-80 object-cover" />
+      <div>
+        <h2 class="text-3xl font-bold mb-6">ヤージャイについて</h2>
+        <p class="mb-4">ヤージャイは本場タイで修行を積んだセラピストのみが在籍する、本格タイ古式マッサージサロンです。ゆったりとしたリズムで筋肉をほぐし、ストレッチでリンパと血流を促進。コリやむくみを解消し、深いリラクゼーションへ導きます。</p>
+        <ul class="list-disc ml-6 space-y-2 text-sm md:text-base">
+          <li>全室個室＆シャワールーム完備</li>
+          <li>ペア来店歓迎・指名料無料</li>
+          <li>深夜2時まで営業でお仕事帰りも安心</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">メニュー & 料金</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col">
+          <h3 class="text-xl font-semibold mb-2">タイ古式 60分</h3>
+          <p class="text-2xl font-bold mb-4">¥6,000</p>
+          <p class="flex-grow">指圧とストレッチで全身をほぐす定番コース。</p>
+          <a href="#contact" class="mt-6 self-start text-yellow-600 hover:underline">予約する →</a>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col">
+          <h3 class="text-xl font-semibold mb-2">オイルトリートメント 90分</h3>
+          <p class="text-2xl font-bold mb-4">¥9,500</p>
+          <p class="flex-grow">厳選アロマオイルで心身ともにリラックス。</p>
+          <a href="#contact" class="mt-6 self-start text-yellow-600 hover:underline">予約する →</a>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col">
+          <h3 class="text-xl font-semibold mb-2">フットマッサージ 45分</h3>
+          <p class="text-2xl font-bold mb-4">¥4,500</p>
+          <p class="flex-grow">足裏反射区を刺激し、むくみ・疲れを解消。</p>
+          <a href="#contact" class="mt-6 self-start text-yellow-600 hover:underline">予約する →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery / FAQ / Access / Contact sections remain unchanged for brevity -->
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-10">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div>
+        <h4 class="text-xl font-bold text-white mb-3">Thai Wellness</h4>
+        <p class="text-sm">営業時間 11:00〜02:00 (年中無休)</p>
+        <p class="text-sm">Tel: 03-1234-5678</p>
+        <p class="text-sm">Mail: info@thaiwellness.jp</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-bold text-white mb-3">クイックリンク</h4>
+        <ul class="space-y-1 text-sm">
+          <li><a href="#services" class="hover:underline">メニュー</a></li>
+          <li><a href="#staff" class="hover:underline">スタッフ</a></li>
+          <li><a href="#faq" class="hover:underline">FAQ</a></li>
+          <li><a href="#contact" class="hover:underline">予約</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-bold text-white mb-3">SNS</h4>
+        <ul class="flex space-x-4 items-center">
+          <!-- Instagram icon -->
+          <li>
+            <a href="https://instagram.com/youraccount" target="_blank" rel="noopener" aria-label="Instagram" class="hover:text-white">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm5.25-1.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" /></svg>
+            </a>
+          </li>
+          <!-- LINE icon -->
+          <li>
+            <a href="https://line.me/ti/p/yourlineid" target="_blank" rel="noopener" aria-label="LINE" class="hover:text-white">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M3.2 11.075C3.2 6.496 7.45 2.8 12.8 2.8c5.35 0 9.6 3.696 9.6 8.275 0 4.578-4.25 8.275-9.6 8.275-.77 0-1.525-.07-2.255-.204L5 21.2l.913-4.786c-1.71-1.418-2.713-3.396-2.713-5.339Zm12.438 2.26h-1.175l-1.883-2.73c-.191-.273-.593-.418-.964-.418h-.02v3.148h-1.066V9.24h1.175l1.863 2.704c.191.273.583.417.954.417h.02V9.24h1.096v4.095Zm-7.315-3.02h-.989V9.23H6.27v4.1h1.064v-1.785h.989v1.785H9.4V9.23H8.317v1.085Zm3.211 2.078h-2.127V9.23h2.127c.583 0 1.076.413 1.076.92v2.274c0 .508-.493.920-1.076.920Z" /></svg>
+            </a>
+          </li>
+          <!-- X/Twitter icon -->
+          <li>
+            <a href="https://twitter.com/youraccount/status/1234567890" target="_blank" rel="noopener" aria-label="X">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.15 3H23L14.85 13.27 22.425 21H15.8l-3.775-4.09L7.15 21H4l8.7-10.24L5.875 3h6.45l3.55 3.87L20.15 3Z" /></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-8">© 2025 Thai Wellness. All rights reserved.</div>
+  </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    document.getElementById('menuBtn').addEventListener
